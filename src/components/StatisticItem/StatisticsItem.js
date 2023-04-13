@@ -6,7 +6,7 @@ export const StatisticsItem = ({ stats: { label, percentage } }) => {
   return (
     <>
       {icon}
-      <span>{percentage}</span>
+      <span>{percentage}%</span>
     </>
   );
 };
